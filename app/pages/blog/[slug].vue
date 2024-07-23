@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { withoutTrailingSlash, joinURL } from 'ufo'
-import type { BlogPost } from '~/types'
+import type { BlogPost, CustomOgImageOptions } from '~/types'
 
 const route = useRoute()
 
@@ -39,7 +39,7 @@ if (post.value.image?.src) {
     title,
     description,
     headline: 'Blog'
-  })
+  } as CustomOgImageOptions )
 }
 </script>
 

@@ -1,5 +1,6 @@
 import type { ParsedContent } from '@nuxt/content'
 import type { Avatar, Badge, Link } from '#ui/types'
+import type { OgImageOptions } from "nuxt-og-image"
 
 export interface BlogPost extends ParsedContent {
   title: string
@@ -12,4 +13,8 @@ export interface BlogPost extends ParsedContent {
     description?: string
     avatar?: Avatar
   } & Link)[]
+}
+
+export interface CustomOgImageOptions extends OgImageOptions<'NuxtSeo'>{
+  title?: string;
 }

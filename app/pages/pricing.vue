@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import type { CustomOgImageOptions } from '~/types';
+
 const { data: page } = await useAsyncData('pricing', () => queryContent('/pricing').findOne())
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
@@ -15,7 +17,7 @@ defineOgImage({
   component: 'Saas',
   title: page.value.title,
   description: page.value.description
-})
+} as CustomOgImageOptions)
 
 const isYearly = ref(false)
 </script>

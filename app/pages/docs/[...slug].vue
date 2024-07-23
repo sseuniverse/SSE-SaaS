@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { withoutTrailingSlash } from 'ufo'
+import type { CustomOgImageOptions } from '~/types';
 
 const route = useRoute()
 
@@ -25,7 +26,7 @@ defineOgImage({
   component: 'Saas',
   title: page.value.title,
   description: page.value.description
-})
+} as CustomOgImageOptions )
 
 const headline = computed(() => findPageHeadline(page.value!))
 </script>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { BlogPost } from '~/types'
+import type { BlogPost, CustomOgImageOptions } from '~/types'
 
 const { data: page } = await useAsyncData('blog', () => queryContent('/blog').findOne())
 if (!page.value) {
@@ -22,7 +22,7 @@ defineOgImage({
   component: 'Saas',
   title: page.value.title,
   description: page.value.description
-})
+} as CustomOgImageOptions)
 </script>
 
 <template>

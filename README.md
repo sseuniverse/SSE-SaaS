@@ -2,9 +2,9 @@
 
 # SSE Nuxt UI - SaaS Template
 
-[![SSE Nuxt UI](https://img.shields.io/badge/Made%20with-SSE%20Nuxt%20UI-00DC82?logo=nuxt.js&labelColor=020420)](https://ui.nuxt.com/pro)
+[![SSE Nuxt UI](https://img.shields.io/badge/Made%20with-SSE%20Nuxt%20UI-00DC82?logo=nuxt.js&labelColor=020420)](https://sseworld.github.io)
 
-- [Live demo](https://saas-template.nuxt.dev/)
+- [Live demo](https://sse-saas.netlify.app/)
 - [Play on Stackblitz](https://stackblitz.com/github/sseuniverse/sse-saas)
 - [Documentation](#) Comming Soon...
 
