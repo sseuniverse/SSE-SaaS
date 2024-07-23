@@ -8,14 +8,17 @@ provide('navigation', navigation)
 </script>
 
 <template>
-    <div>
-        <AppHeader />
-        <UMain>
-            <slot />
-        </UMain>
-        <AppFooter />
-        <ClientOnly>
-            <LazyUContentSearch :files="files" :navigation="navigation" />
-        </ClientOnly>
-    </div>
+  <div>
+    <AppHeader />
+    <UMain>
+      <slot />
+    </UMain>
+    <AppFooter />
+    <ClientOnly>
+      <LazyUContentSearch
+        :files="files"
+        :navigation="navigation"
+      />
+    </ClientOnly>
+  </div>
 </template>

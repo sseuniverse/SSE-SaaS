@@ -7,19 +7,22 @@ const links = computed(() => navigation.value.find(item => item._path === '/docs
 </script>
 
 <template>
-    <UContainer>
-        <UPage>
-            <template #left>
-                <UAside>
-                    <template #top>
-                        <UContentSearchButton class="rounded-md" size="sm" />
-                    </template>
+  <UContainer>
+    <UPage>
+      <template #left>
+        <UAside>
+          <template #top>
+            <UContentSearchButton
+              class="rounded-md"
+              size="sm"
+            />
+          </template>
 
-                    <UNavigationTree :links="mapContentNavigation(links)" />
-                </UAside>
-            </template>
+          <UNavigationTree :links="mapContentNavigation(links)" />
+        </UAside>
+      </template>
 
-            <NuxtPage />
-        </UPage>
-    </UContainer>
+      <NuxtPage />
+    </UPage>
+  </UContainer>
 </template>

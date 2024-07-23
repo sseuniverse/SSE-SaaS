@@ -1,23 +1,29 @@
 <script setup lang="ts">
 useHead({
-    bodyAttrs: {
-        class: 'dark:bg-gray-950'
-    }
+  bodyAttrs: {
+    class: 'dark:bg-gray-950'
+  }
 })
 </script>
 
 <template>
-    <div class="h-screen flex items-center justify-center overlay">
-        <div class="gradient" />
+  <div class="h-screen flex items-center justify-center overlay">
+    <div class="gradient" />
 
-        <UButton icon="i-heroicons-home" label="Home" to="/" color="black" class="absolute top-4" />
-        <br />
-        <br />
-        <br />
-        <br />
+    <UButton
+      icon="i-heroicons-home"
+      label="Home"
+      to="/"
+      color="black"
+      class="absolute top-4"
+    />
+    <br>
+    <br>
+    <br>
+    <br>
 
-        <slot />
-    </div>
+    <slot />
+  </div>
 </template>
 
 <style scoped>
