@@ -1,12 +1,12 @@
 title: SSE Saas UI - SaaS template
-description: Nuxt UI is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+description: SSE UI is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
 navigation: false
 hero:
   title: Build your SaaS in seconds
-  description: This template demonstrates most of Nuxt UI Pro's components. It's a great starting point to build your own SaaS.
+  description: This template demonstrates most of SSE UI components. It's a great starting point to build your own SaaS.
   headline:
-    label: Made with Nuxt UI
-    to: https://nuxt.com
+    label: Made with SSE Nuxt UI
+    to: https://sseworld.github.io
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
     - label: Get started

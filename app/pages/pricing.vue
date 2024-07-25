@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { CustomOgImageOptions } from '~/types';
+import type { CustomOgImageOptions } from '~/types'
 
 const { data: page } = await useAsyncData('pricing', () => queryContent('/pricing').findOne())
 if (!page.value) {

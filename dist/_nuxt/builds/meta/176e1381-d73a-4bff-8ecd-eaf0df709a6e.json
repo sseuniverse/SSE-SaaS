@@ -1,1 +1,0 @@
-{"id":"176e1381-d73a-4bff-8ecd-eaf0df709a6e","timestamp":1721737109680,"matcher":{"static":{"/":{"prerender":true},"/api/search.json":{"prerender":true},"/docs":{"redirect":"/docs/getting-started"}},"wildcard":{},"dynamic":{}},"prerendered":["/pricing","/blog","/signup","/login","/blog/asian-cuisine","/docs/_dir","/docs/getting-started","/docs/getting-started/installation"]}

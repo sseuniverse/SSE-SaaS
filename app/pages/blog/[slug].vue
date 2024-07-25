@@ -39,7 +39,7 @@ if (post.value.image?.src) {
     title,
     description,
     headline: 'Blog'
-  } as CustomOgImageOptions )
+  } as CustomOgImageOptions)
 }
 </script>
 
